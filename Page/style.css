@@ -5,4 +5,41 @@
 
 .flex-container {
   display: flex; /* or inline-flex */
-}  
+}
+
+.ft0{font: italic 15px 'Arial';line-height: 18px;}
+.ft1{font: italic 15px 'Arial';text-decoration: underline;color: #1155cc;line-height: 17px;}
+.ft2{font: italic 15px 'Arial';line-height: 17px;}
+.ft3{font: 35px 'Arial';line-height: 40px;}
+.ft4{font: bold 15px 'Arial';line-height: 18px;}
+.ft5{font: 15px 'Arial';text-decoration: underline;line-height: 19px;}
+.ft6{font: 15px 'Arial';line-height: 19px;}
+.ft7{font: 15px 'Arial';line-height: 17px;}
+.ft8{font: 13px 'Times New Roman';line-height: 15px;}
+.ft9{font: 15px 'Arial';margin-left: 18px;line-height: 17px;}
+.ft10{font: bold 15px 'Arial';margin-left: 12px;line-height: 18px;}
+.ft11{font: bold 15px 'Arial';line-height: 17px;}
+.ft12{font: bold 15px 'Arial';margin-left: 12px;line-height: 17px;}
+.ft13{font: 15px 'Arial';margin-left: 12px;line-height: 17px;}
+.ft14{font: 15px 'Arial';line-height: 18px;}
+.ft15{font: 15px 'Arial';margin-left: 18px;line-height: 18px;}
+.ft16{font: 15px 'Arial';margin-left: 18px;line-height: 20px;}
+.ft17{font: 15px 'Arial';line-height: 20px;}
+.ft18{font: 15px 'Arial';margin-left: 18px;line-height: 19px;}
+
+.p0{text-align: left;padding-right: 113px;margin-top: 0px;margin-bottom: 0px;}
+.p1{text-align: left;margin-top: 0px;margin-bottom: 0px;}
+.p2{text-align: left;margin-top: 16px;margin-bottom: 0px;}
+.p3{text-align: left;margin-top: 20px;margin-bottom: 0px;}
+.p4{text-align: left;padding-right: 237px;margin-top: 3px;margin-bottom: 0px;}
+.p5{text-align: left;margin-top: 10px;margin-bottom: 0px;}
+.p6{text-align: left;padding-left: 24px;margin-top: 0px;margin-bottom: 0px;}
+.p7{text-align: left;padding-left: 72px;margin-top: 0px;margin-bottom: 0px;}
+.p8{text-align: left;margin-top: 14px;margin-bottom: 0px;}
+.p9{text-align: left;padding-right: 110px;margin-top: 0px;margin-bottom: 0px;}
+.p10{text-align: left;padding-left: 48px;padding-right: 160px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p11{text-align: left;padding-left: 48px;padding-right: 116px;margin-top: 1px;margin-bottom: 0px;text-indent: -24px;}
+.p12{text-align: left;margin-top: 28px;margin-bottom: 0px;}
+.p13{text-align: left;padding-left: 48px;padding-right: 142px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p14{text-align: left;padding-left: 48px;padding-right: 143px;margin-top: 1px;margin-bottom: 0px;text-indent: -24px;}
+.p15{text-align: left;padding-left: 24px;padding-right: 104px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
