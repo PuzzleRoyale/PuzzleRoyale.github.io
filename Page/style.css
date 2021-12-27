@@ -1,0 +1,8 @@
+.info {
+  font-family: Arial;
+
+}
+
+.flex-container {
+  display: flex; /* or inline-flex */
+}  

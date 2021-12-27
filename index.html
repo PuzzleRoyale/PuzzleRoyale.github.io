@@ -6,6 +6,7 @@
     <title>PuzzleRoyale</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="Page/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <STYLE type="text/css">
@@ -51,59 +52,42 @@
 
   </STYLE>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Puzzle Royal.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Build2.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
     <div class="webgl-content"  style="width:90%; height:auto;">
-      <div id="unityContainer" style="width:90%; height:auto;"></div>
+      <div id="unityContainer"></div>
       <div class="footer">
-        <div>
-			<P class="p0 ft0">Also check out our airdrop campaign at: <a href="https://gleam.io/competitions/UB9rs-puzzle-royale-airdrop-campaign">https://gleam.io/competitions/UB9rs-puzzle-royale-airdrop-campaign</a></P>
-<br>
-<P class="p0 ft0">Disclaimer: this game is made for promotional purposes and does not represent the actual gameplay of Puzzle Royale.</P>
-<P class="p1 ft2">Please visit <A href="http://www.puzzleroyale.io/" target="_blank"><SPAN class="ft1">www.puzzleroyale.io</SPAN></A> for information about Puzzle Royale.</P>
-<P class="p2 ft3">Puzzle Royale Holiday Challenge</P>
-<P class="p3 ft4">Description:</P>
-<P class="p4 ft6">This festive season Puzzle Royale is giving away prizes to our fans, simply follow our socials(<A href="https://twitter.com/PuzzleRoyale"  target="_blank"><SPAN class="ft1">Twitter</SPAN></A>, <A href="https://discord.gg/PuzzleRoyale"  target="_blank"><SPAN class="ft1">Discord</SPAN></A>, <A href="http://t.me/PuzzleRoyale"  target="_blank"><SPAN class="ft1">Telegram</SPAN></A>) and play the 1-Minute challenge!</P>
-<p></p>
-<P class="p2 ft3">Prizes:</P> <P class="p1 ft7">&emsp; </P>
-<P class="p1 ft7"><SPAN class="ft4">Daily: </SPAN></P><P class="p1 ft7"><SPAN class="ft2">from 23:00 27/12/21 to 23:00 2/1/22 (HKT): </SPAN></P>
-<P class="p6 ft7"><SPAN class="ft8">•</SPAN><SPAN class="ft9">Raffle of $50 to any 2 contestants who score over 2000</SPAN></P>
-<P class="p6 ft7"><SPAN class="ft8">•</SPAN><SPAN class="ft9">Leaderboard:</SPAN></P>
-<P class="p7 ft4"><SPAN class="ft4">1.</SPAN><SPAN class="ft10">$60</SPAN></P>
-<P class="p7 ft11"><SPAN class="ft11">2.</SPAN><SPAN class="ft12">$50</SPAN></P>
-<P class="p7 ft11"><SPAN class="ft11">3.</SPAN><SPAN class="ft12">$40</SPAN></P>
-<P class="p7 ft7"><SPAN class="ft7">4.</SPAN><SPAN class="ft13">$30</SPAN></P>
-<P class="p7 ft7"><SPAN class="ft7">5.</SPAN><SPAN class="ft13">$20</SPAN></P>
-<P class="p7 ft7"><SPAN class="ft7">6.</SPAN><SPAN class="ft13">$10</SPAN></P><p class="p7 ft7"> &emsp;</p>
-<P class="p1 ft7"><SPAN class="ft4">Invite your friends: </SPAN></P><P class="p1 ft7">if they win, you get 10% on top of their winnings</P>
-<P class="p8 ft7"><SPAN class="ft4">Tournament: </SPAN><br><SPAN class="ft2">00:00 03/01/22 - 22:59 05/01/22 (HKT)</SPAN></P>
-<P class="p9 ft14">To qualify for the tournament, players must be placed in the top 30% of all scores <NOBR>(all-time)</NOBR> at the end of the campaign.</P>
-<P class="p6 ft11"><SPAN class="ft11">1.</SPAN><SPAN class="ft12">iPhone 13 or $1100</SPAN></P>
-<P class="p6 ft11"><SPAN class="ft11">2.</SPAN><SPAN class="ft12">$350</SPAN></P>
-<P class="p6 ft11"><SPAN class="ft11">3.</SPAN><SPAN class="ft12">$250</SPAN></P>
-<P class="p6 ft7"><SPAN class="ft7">4.</SPAN><SPAN class="ft13">$200</SPAN></P>
-<P class="p6 ft7"><SPAN class="ft7">5.</SPAN><SPAN class="ft13">$150</SPAN></P>
-<P class="p6 ft7"><SPAN class="ft7">6.</SPAN><SPAN class="ft13">$100</SPAN></P>
-<P class="p6 ft7"><SPAN class="ft7">7.</SPAN><SPAN class="ft13">$50</SPAN></P>
-<P class="p6 ft7"><SPAN class="ft8">•</SPAN><SPAN class="ft9">Top 30 players will enter whitelist for Puzzle Royale genesis drop</SPAN></P>
-<P class="p8 ft4">Community/Team Prize:</P>
-<P class="p10 ft14"><SPAN class="ft8">•</SPAN><SPAN class="ft15">Invite your community/friends and use the same clan tag e.g. “PR|Aaron” or “PR|Chelsea” or “BTC|Samurai”</SPAN></P>
-<P class="p11 ft14"><SPAN class="ft8">•</SPAN><SPAN class="ft15">At the end of the campaign, $1000 will be given out to the community that appears most in the daily top 20%.</SPAN></P>
-<P class="p12 ft4">Terms and Condition:</P>
-<P class="p6 ft7"><SPAN class="ft8">•</SPAN><SPAN class="ft9">Follow on Telegram, Twitter and Discord to be eligible for any prize won.</SPAN></P>
-<P class="p6 ft7"><SPAN class="ft8">•</SPAN><SPAN class="ft9">Game is free to play.</SPAN></P>
-<P class="p6 ft7"><SPAN class="ft8">•</SPAN><SPAN class="ft9">Rewards will be distributed once the campaign has ended.</SPAN></P>
-<P class="p6 ft7"><SPAN class="ft8">•</SPAN><SPAN class="ft9">Rewards are in USD value unless stated otherwise.</SPAN></P>
-<P class="p6 ft7"><SPAN class="ft8">•</SPAN><SPAN class="ft9">Daily snapshot of the leaderboard will occur at 23:00 (HKT)</SPAN></P>
-<P class="p6 ft7"><SPAN class="ft8">•</SPAN><SPAN class="ft9">All scores below 500 will not count towards the leaderboard or tournament qualifiers.</SPAN></P>
-<P class="p6 ft7"><SPAN class="ft8">•</SPAN><SPAN class="ft9">Tournament contestants are encouraged to stream on discord in the </SPAN><NOBR>#mini-challenge.</NOBR></P>
-<P class="p13 ft7"><SPAN class="ft8">•</SPAN><SPAN class="ft9">Community members are required to place the community name in front of the username eg.: “PR|aaron” or “PR|chelsea” or “BTC|Cutie”</SPAN></P>
-<P class="p14 ft17"><SPAN class="ft8">•</SPAN><SPAN class="ft16">In the case of any disputes, the Puzzle Royale Team reserves the right of final decision or forfeit prizes from anyone</SPAN></P>
-<P class="p14 ft17"><SPAN class="ft8">•</SPAN><SPAN class="ft18">The Puzzle Royale team reserves the rights to amend the activity rules or cancel the event.</SPAN></P>
-<P class="p14 ft17"><SPAN class="ft8">•</SPAN><SPAN class="ft9">All final decisions belong to the Puzzle Royale team.</SPAN></P>
-<br><br><br><br>
+        <div class="footer">
+
+          <div class="info">
+            <p>Disclaimer: this game is made for promotional purposes and does not represent the actual gameplay of Puzzle Royale.</p>
+      
+            <p>
+              Also check out our airdrop campaign at: <a href="https://gleam.io/competitions/UB9rs-puzzle-royale-airdrop-campaign">https://gleam.io/competitions/UB9rs-puzzle-royale-airdrop-campaign</a>
+            </p>
+      
+            <p>
+              <a href="https://puzzleroyale.io/">
+                <img src="Page/Learnmore-button.jpg" alt="Learn More About Puzzle Royale" width="600" height="auto">
+              </a>
+            </p>
+      
+            <div class="footer">
+              Follow us:
+              <div class="flex-container">
+                <a href="https://twitter.com/PuzzleRoyale">
+                  <img src="Page/twitter.jpg" alt="Twitter" width="auto" height="50">
+                </a>
+                <a href="https://discord.gg/PuzzleRoyale">
+                  <img src="Page/discord.jpg" alt="Discord" width="auto" height="50">
+                </a>
+                <a href="T.me/PuzzleRoyale">
+                  <img src="Page/telegram.jpg" alt="Telegram" width="auto" height="50">
+                </a>
+              </div>
+            </div>
           </div>
       </div>
     </div>
